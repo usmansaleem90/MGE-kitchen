@@ -27,23 +27,105 @@
         <link rel="stylesheet" href="css/responsive.css">
         <!-- END BEGIN TEMPLATE LAYOUT STYLES -->
         <link rel="shortcut icon" href="images/logo-home-1.png" />
-        <script
-        src="https://code.jquery.com/jquery-3.3.1.js"
-        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-        crossorigin="anonymous">
-    </script> 
-<script>  
-$(function(){ 
-  $("#header").load("header.html"); 
-  $("#footer").load("footer.html"); 
-
-}); 
-</script>
+    
     </head>
     <!-- END HEAD -->
     <body>
        <!-- BEGIN HEADER -->
-       <div id="header"></div>
+       <header class="home-one">
+         <div class="top-bar">
+            <div class="uk-container uk-container-center">
+               <div class="uk-grid uk-grid-collapse">
+                  <div class="uk-width-medium-1-4 uk-width-small-1-1 uk-width-1-1">
+                     <div class="box uk-flex uk-flex-middle uk-flex-left">
+                        <a href="index.html"><img src="images/logo-home-1.png" alt=""></a>
+                     </div>
+                  </div>
+                  <div class="uk-width-medium-3-4 uk-width-small-1-1 uk-width-1-1 uk-hidden-small">
+                     <div class="box uk-flex uk-flex-middle uk-flex-right">
+                        <ul class="uk-subnav uk-subnav-line">
+                           <li><span class="icon uk-icon-map-marker"></span> Mississauga, Toronto ontario canida</li>
+                           <li><span class="icon uk-icon-envelope"></span> <a href="">mgereno@icloud.com</a></li>
+                           <li><span class="icon uk-icon-phone"></span> +64 (1) 123 456 789</li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="header">
+            <div class="uk-container uk-container-center">
+               <nav class="kc-navbar uk-clearfix">
+                  <ul class="uk-navbar-nav menu-primary uk-hidden-medium uk-hidden-small">
+                     <li >
+                        <a href="index.html">HOME</a>
+                  
+                     </li>
+                     <li class="uk-parent" data-uk-dropdown="{remaintime:'0'}">
+                        <a href="design.html">DESIGNS</a>
+                        <div class="uk-dropdown uk-dropdown-navbar uk-dropdown-bottom">
+                           <ul class="uk-nav uk-nav-navbar">
+                              <li><a href="design-detail.html">DESIGN DETAIL</a></li>
+                              <li><a href="book-design.html">BOOK DESIGN</a></li>
+                           </ul>
+                        </div>
+                     </li>
+                   
+                     <li>
+                        <a href="gallery.html">GALLERY</a>
+                     
+                     </li>
+                    
+                     <li><a href="check-out.html">CHECK OUT</a></li>
+                     <li><a href="about.html">ABOUT</a></li>
+                     <li><a href="contact.html">CONTACT</a></li>
+                  </ul>
+                  <div class="uk-navbar-flip uk-clearfix">
+                     <ul class="uk-navbar-nav menu-right">
+                        <li data-uk-dropdown="{remaintime:'0'}">
+                           <a href="#" class="search" ><span class="icon uk-icon-search"></span></a>
+                           <div class="uk-dropdown uk-dropdown-navbar uk-dropdown-bottom">
+                              <form class="uk-form" action="#" method="GET">
+                                 <div class="uk-form-icon uk-form-icon-flip">
+                                    <i class="uk-icon-search"></i>
+                                    <input type="text" class="uk-form-large uk-width-1-1" placeholder="Search...">
+                                 </div>
+                              </form>
+                           </div>
+                        </li>
+                        
+                      
+                     </ul>
+                    
+                  </div>
+               </nav>
+            </div>
+            <div class="menu-media">
+               <nav class="nav-holder">
+                  <ul class="nav">
+                     <li class="">
+                        <a href="index.html">HOME</a>
+                     </li>
+                     <li class="has-submenu">
+                        <a href="design.html">DESIGNS</a>
+                        <ul class="submenu">
+                           <li><a href="design.html">DESIGN</a></li>
+                           <li><a href="design-detail.html">DESIGN DETAIL</a></li>
+                           <li><a href="book-design.html">BOOK DESIGN</a></li>
+                        </ul>
+                     </li>
+                   
+                     <li class="">
+                        <a href="gallery.html">GALLERY</a>
+                     </li>
+                     <li><a href="about.html">ABOUT</a></li>
+                     <li><a href="contact.html">CONTACT</a></li>
+                  </ul>
+               </nav>
+            </div>
+         </div>
+      </header>
+
      <!--END BEGIN HEADER -->
         <!--END BEGIN HEADER -->
         <!-- BEGIN CONTAINER -->
@@ -149,7 +231,97 @@ $(function(){
         <!-- END BEGIN CAROUSEL -->
         <!-- END BEGIN CONTAINER -->
        <!-- BEGIN FOOTER -->
-       <div id="footer"></div>
+       <footer class="footer sec-padding">
+      <div class="uk-container uk-container-center">
+         <div class="uk-grid">
+            <div class="uk-width-medium-1-3 uk-width-small-1-1 uk-width-1-1">
+               <div class="footer-widget notitle about-widget">
+                  <div class="title">
+                     <h3>ABOUT US</h3>
+                  </div>
+                  <img class="logo-footer" src="images/logo-home-1.png" alt="" width="150px" />
+                  <p>
+                      We believe a great life is inspired by great design. That’s why we founded Authentic Kitchen & Design out of our passion to help others realize the vision for their space  </p>
+                  <ul class="social-footer">
+                     <li><a href="https://www.facebook.com/people/MGE-Kitchen-and-Bath/100089808458151/?mibextid=ZbWKwL" target="_blank"><span class="uk-icon-facebook"></span></a></li>
+                     <li><a href="#" target="_blank"><span class="uk-icon-vimeo"></span></a></li>
+                     <li><a href="#" target="_blank"><span class="uk-icon-twitter"></span></a></li>
+                     <li><a href="https://www.instagram.com/mge_kitchen_bath_on/?igshid=ZDdkNTZiNTM%3D" target="_blank"><span class="uk-icon-instagram"></span></a></li>
+                     <li><a href="#" target="_blank"><span class="uk-icon-google"></span></a></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="uk-width-medium-1-3 uk-width-small-1-1 uk-width-1-1">
+               <div class="uk-grid">
+                  <div class="uk-width-medium-1-2 uk-width-small-1-1 uk-width-1-1">
+                     <div class="footer-widget post-link-widget">
+                        <div class="title">
+                           <h3>INFOMATION</h3>
+                        </div>
+                        <ul>
+                           <li><a href="about.html">About Us</a></li>
+                           <li><a href="contact.html">Contact Us</a></li>
+                           <li><a href="index.html">Home</a></li>
+                           <li><a href="check-out.html">Chectout</a></li>
+                           <li><a href="gallery.html">Gallery</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="uk-width-medium-1-2 uk-width-small-1-1 uk-width-1-1">
+                     <div class="footer-widget post-link-widget">
+                        <div class="title">
+                           <h3>LINKS</h3>
+                        </div>
+                        <ul>
+                           <li><a href="index.html">Home</a></li>
+                           <li><a href="book-design.html">Book Design</a></li>
+                           <li><a href="design.html">Design</a></li>
+                           <li><a href="coming-soon.html">Coming Soon</a></li>
+                           <li><a href="best-designs.html">Best Designs</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="uk-width-medium-1-3 uk-width-small-1-1 uk-width-1-1">
+               <div class="footer-widget post-img-widget">
+                  <div class="title">
+                     <h3>Conatct Us</h3>
+                     <div class="address" style="color:white">
+                        <li><span class="icon uk-icon-map-marker"></span> Mississauga, Toronto ontario canida</li>
+                           <li><span class="icon uk-icon-envelope"></span> <a href="" style="color: white;">mgereno@icloud.com</a></li>
+                           <li><span class="icon uk-icon-phone"></span> +1 365-773-3891</li>
+                         </div>
+                  </div>
+                 
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <div class="footer-bottom">
+      <div class="uk-container uk-container-center">
+         <div class="uk-grid uk-grid-small">
+            <div class="uk-width-medium-4-10 uk-width-small-1-1 uk-width-1-1">
+               <div class="left">
+                  <p>Copyright &copy; 2023 MGE. All Right Reserved</p>
+               </div>
+            </div>
+            <div class="uk-width-medium-6-10 uk-width-small-1-1 uk-width-1-1 uk-hidden-small">
+               <div class="right">
+                  <ul>
+                     <li><a href="index.html">Home</a></li>
+                     <li><a href="design.html">Designs</a></li>
+                     <li><a href="gallery.html">Gallery</a></li>
+                     <li><a href="about.html">About</a></li>
+                     <li><a href="contact.html">Contact</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="kc_backtop" class="kc-bt-show" data-uk-smooth-scroll><i class="uk-icon-arrow-up"></i></div>
         <!--END BEGIN FOOTER -->
         <!-- BEGIN CORE PLUGINS -->
         <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="plugins/jquery/jquery-1.12.4.min.js" type="text/javascript"></script>
