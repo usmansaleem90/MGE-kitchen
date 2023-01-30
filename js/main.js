@@ -428,3 +428,18 @@ jQuery(window).on('load', function () {
       galleryMasonry();
    })(jQuery);
 });
+
+// =====
+		$(document).ready(function(){   
+        window.setTimeout('fadeout();', 2000);
+        
+    });
+
+    function fadeout(){
+        $('.preloader-wrapper').delay(2000).fadeOut('slow', function() {
+           $('.notLoaded').removeClass('notLoaded');
+        });
+    }
+
+
+	
