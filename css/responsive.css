@@ -1,7 +1,10 @@
-/*
- * Title:   Kitchen Design - HTML Responsive Template
- * Author:  QTC Media
- */
+
+ .uk-img{
+  display: none;
+  height: 75px;
+  padding: 5px 0;
+  width: 100px;
+ }
 @media (max-width: 1219px) {
   .product-list .product-box .kc-product-wrap .thumbnai-product {
     display: block; }
@@ -92,6 +95,11 @@
       float: none; }
     .header .kc-navbar .uk-navbar-nav {
       float: left; }
+      .uk-img{
+        display: block;
+      }
+    .header .kc-navbar .uk-navbar-nav li {
+    display: none; }
   .header .menu-primary {
     display: none; }
   .header .uk-float-right .uk-hidden-large {
@@ -518,7 +526,10 @@
 @media screen and (max-width: 1024px) {
   .page-design .uk-container .design-list .design-item .box-icon {
     padding: 55px 0px; }
-
+    .top-bar .box {
+      justify-content: center;
+    display: none; }
+  
   .product-list .product-box .kc-product-wrap .thumbnai-product a img {
     width: 100%;
     height: auto; }
@@ -872,7 +883,8 @@
       width: 30%; }
 
   .top-bar .box {
-    justify-content: center; }
+    justify-content: center;
+  display: none; }
 
   .slideset-arrow {
     margin-bottom: 30px; }
@@ -1202,4 +1214,3 @@
     font-size: 14px;
     line-height: 25px; } }
 
-/*# sourceMappingURL=responsive.css.map */
